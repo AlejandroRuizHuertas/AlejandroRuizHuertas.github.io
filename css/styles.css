@@ -218,6 +218,12 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+.avatar {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+
+}
 
 svg {
   overflow: hidden;
@@ -10524,10 +10530,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.avatar {
-  vertical-align: middle;
-  width: 250px;
-  height: 250px;
-
 }

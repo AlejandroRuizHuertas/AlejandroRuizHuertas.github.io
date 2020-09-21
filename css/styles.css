@@ -218,12 +218,33 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-.avatar {
-  vertical-align: middle;
-  width: 250px;
-  height: 250px;
 
-}
+.avatar:hover{
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+  }
+  .avatar {
+    background-color: #fed136;      
+border: 1px solid #bd9d2b;      
+border-radius: 50% 50% 50% 50%;      
+padding: 4px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transition:All 1s ease;
+  -webkit-transition:All 1s ease;
+  -moz-transition:All 1s ease;
+  -o-transition:All 1s ease;
+  transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  }
 
 svg {
   overflow: hidden;
@@ -500,6 +521,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-link{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .img-thumbnail {

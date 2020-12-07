@@ -10584,3 +10584,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 		background-position: 0% 50%;
 	}
 }
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+}
